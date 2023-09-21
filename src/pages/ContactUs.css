@@ -1,24 +1,28 @@
 .contactus-container{
     display: flex;
-    width: 100%;
-    
+    width: 1440px;
+    height: 597px;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-block: 5rem;
+    background: linear-gradient(180deg, rgba(0, 66, 37, 0.70) 0%, rgba(0, 66, 37, 0.20) 100%);   
 }
 
 .contactus-img{
-    width: 50%;
-    margin: 5rem;
-    flex-wrap: wrap;
+   display: flex;
+   justify-content: center;
 }
 
 .form{
-    all: unset;
+    /* all: unset;
     display: flex;
     flex-direction: column;
      width: 50%;
      justify-content: center;
-     align-items: center;
-     /* flex-wrap: wrap; */
-}
+     align-items: center; */
+     margin: auto;
+     
+} 
 
 .form-heading{
     all: unset;
